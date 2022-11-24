@@ -30,6 +30,7 @@ function Wallet({address, setAddress, balance, setBalance, privateKey, setPrivat
             </label>
 
             <div className="balance">Balance: {balance}</div>
+            <div>Address: {address}</div>
         </div>
     );
 }
